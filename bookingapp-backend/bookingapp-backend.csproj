@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>bookingapp_backend</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.18.0" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+    <PackageReference Include="MySql.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.18.0" />
+  </ItemGroup>
+
+
+</Project>
